@@ -1,4 +1,5 @@
 #include <iostream>
+#include<windows.h>
 #include <string>
 #include <list>
 using namespace std;
@@ -21,15 +22,19 @@ int main(){
         cin >> choice;
         switch(choice){
             case 1:
+                
                 createTask();
                 break;
             case 2:
+                system("cls");
                 showTasks();
                 break;
             case 3:
+                system("cls");
                 completeTask();
                 break;
             case 4:
+                system("cls");
                 deleteTask();
                 break;
             case 5:
