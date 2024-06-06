@@ -2,6 +2,6 @@
 <br>
 -TO DO LIST
 <br>
--TIK TAK TOE
+-TIC TAC TOE
 <br>
 Author ~ Rudri Pandya
