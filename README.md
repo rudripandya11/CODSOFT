@@ -1,7 +1,7 @@
-# CODSOFT
+# CODSOFT C++ INTERNSHIP
 <br>
--TO DO LIST
+-Task 1: TO DO LIST
 <br>
--TIC TAC TOE
+-Task 2: TIC TAC TOE
 <br>
 Author ~ Rudri Pandya
