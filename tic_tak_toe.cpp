@@ -59,9 +59,8 @@ int main() {
     char player2 = 'O';
     bool gameOver = false;
     printBoard(board);
-    
+
     while (!gameOver) {
-        
         cout<<" "<<endl;
         cout << "Player 1(x) turn enter a number (1-9) to place your mark: ";
         int position;
@@ -78,7 +77,6 @@ int main() {
         board[row][col] = player1;
 
         printBoard(board);
-     
 
         if (checkWin(board, player1)) {
             cout << "Player 1 wins!" << endl;
@@ -104,7 +102,7 @@ int main() {
             board[row2][col2] = player2;
 
             printBoard(board);
-           
+
             if (checkWin(board, player2)) {
                 cout << "Player 2 wins!" << endl;
                 gameOver = true;
@@ -114,6 +112,16 @@ int main() {
                 gameOver = true;
             }
         }
+    }
+
+    char choice;
+    cout << "Do you want to play again? (y/n): ";
+    cin >> choice;
+
+    if (choice == 'y') {
+        main();
+    } else {
+        cout << "Goodbye!" << endl;
     }
 
     return 0;
